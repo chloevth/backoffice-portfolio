@@ -1,12 +1,12 @@
 <?php
-$servername = 'localhost';
-$dbname = 'backoffice';
-$username = 'root';
-$password = '';
+$servername ='localhost';
+$dbname ='backoffice';
+$username ='root';
+$password ='';
 try {
-$db = new PDO("mysql:host=$servername; dbname=$dbname",$username,$password);
-$db -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-echo 'succes';
+    $db = new PDO("mysql:host=$servername; dbname=$dbname",$username, $password);
+    $db -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    /* echo 'Success'; */
 } catch (PDOException $e) {
-echo 'connexion fail : '.$e->getMessage();
+    echo 'Error Connection : '.$e->getMessage();
 }

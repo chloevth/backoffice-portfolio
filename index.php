@@ -4,33 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Back-office Portfolio</title>
+    <title>Accueil</title>
 </head>
 <body>
-    <form action="register.php" method="post">
-        <div>
-            <label for="input-username">Nom d'utilisateur :</label>
-            <input type="text" name="username" id="input-username" required>
-        </div>
-        <div>
-            <label for="input-email">Email :</label>
-            <input type="email" name="email" id="input-email" required>
-        </div>
-        <div>
-            <label for="input-password">Mot de passe :</label>
-            <input type="password" name="password" id="input-password" required>
-        </div>
-        <div>
-            <label for="input-confirmation">Confirmation du mot de passe :</label>
-            <input type="password" name="confirmation" id="input-confirmation" required>
-            <span id="error"></span>
-        </div>
-
-        <div>
-            <input type="submit" value="enregistrer" id='submit'>
-        </div>
-    
-    </form>
-    <script src="main.js"></script>
+    <button>
+        <a href="register-form.php">S'inscrire</a>
+    </button>
+    <button>
+        <a href="login-form.php">Se connecter</a>
+    </button>
+   
+   
 </body>
 </html>
