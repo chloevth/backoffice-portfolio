@@ -1,4 +1,52 @@
-.color{
-    color: red;
-    font-size: 24px;
+@font-face {
+    font-family: "Metropolis-Medium.otf";
+    src: url("fonts/Metropolis-Medium.otf") format("opentype"), url("fonts/Metropolis-Bold.otf") format("opentype"), url("fonts/Metropolis-ExtraBold.otf") format("opentype");
+}
+
+*{
+    font-family: "Metropolis";
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f8f7ff;
+}
+nav{
+    background-color: white;
+    height: 70px;
+  
+}
+.list__container{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items: center;
+    list-style-type: none;
+    padding: 0 3vw;
+}
+.list__item{
+    margin-left: 6vw; 
+}
+.logo{
+    max-height: 100%;
+    max-width: 250px;
+}
+.cta__container{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.cta__btn{
+    background-color: tomato;
+    
+   
+}
+a{
+    text-decoration: none;
+    font-weight: bolder;
+   
+}
+a:link{
+ color: #0a1499;
 }
