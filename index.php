@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil</title>
+    <title>Chloé VAUTHIER | Graphiste & Web designer</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <button>
