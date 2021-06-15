@@ -10,30 +10,25 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul class="list__container">
-                <a href="index.php">
-                    <img src="assets/logo/logo-vecto.svg" alt="Logo du site Chloé Vauthier" class="logo">
-                </a>
-                <li class="list__item"><a href="#">PHOTO</a></li>
-                <li class="list__item"><a href="#">GRAPHISME</a></li>
-                <li class="list__item"><a href="#">WEB DESIGN</a></li>
-                <div class="cta__container">
-                <a href="register-form.php" class="cta__btn">S'inscrire</a>
-                <a href="login-form.php" class="cta__btn">Se connecter</a>
-                </div>
-            </ul>
-            
-        </nav>
-    </header>
+    <div class="container">
+        <div class="item">BOX 1</div>
+        <div class="item">BOX 2</div>
+        <div class="item">BOX 3</div>
+        <div class="item">BOX 4</div>
+        <div class="item">BOX 5</div>
+        
+    </div>
+
+
+    <a href="register-form.php">S'inscrire</a>
+    <a href="login-form.php">Se connecter</a>
     <!-- <button>
         <a href="register-form.php">S'inscrire</a>
     </button>
     <button>
         <a href="login-form.php">Se connecter</a>
     </button> -->
-   
-   
+ 
+<script src="main.js"></script>
 </body>
 </html>
