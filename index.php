@@ -10,19 +10,24 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    
     <div class="container">
-        <div class="item">BOX 1</div>
-        <div class="item">BOX 2</div>
-        <div class="item">BOX 3</div>
-        <div class="item">BOX 4</div>
-        <div class="item">BOX 5</div>
+        <h1>PROJETS</h1>
+        <div class="bloc__horizontal">
+            <div class="item"><h2>TITRE</h2></div>
+            <div class="item"><h2>TITRE</h2></div>
+            <div class="item"><h2>TITRE</h2></div>
+            <div class="item"><h2>TITRE</h2></div>
+            <div class="item"><h2>TITRE</h2></div>
+        </div>
+    
         
     </div>
 
-
+<!-- 
     <a href="register-form.php">S'inscrire</a>
     <a href="login-form.php">Se connecter</a>
-    <!-- <button>
+    <button>
         <a href="register-form.php">S'inscrire</a>
     </button>
     <button>
