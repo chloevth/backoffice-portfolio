@@ -28,7 +28,8 @@ if ($_SESSION['username']) {
     <title>Document</title>
 </head>
 <body>
-<?= $result['project_title'] ?>
+    <?= $result['project_title'] ?>
+    <img src="C:\Users\acs\Documents\gwendoline_matos\modele-logo-sport-formes-abstraites_23-2148228932.jpg<?= $result['project_picture']; ?>">
     <?= $result['project_context'] ?>
     <?= $result['project_specs'] ?>
 
