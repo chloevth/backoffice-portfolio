@@ -10,24 +10,33 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div class="main__header">
-        <h2>CHLOE VAUTHIER</h2>
-    </div>
+    
     
     <div class="container">
         
         <h1>PROJETS</h1>
-        <div class="bloc__horizontal">
+
         
-            <div class="item un">
+        
+        <div class="main__header">
+            <a href="#">A PROPOS</a>
+            <p class="scroll">Scroll</p>
+            <a href="#">CHLOE VAUTHIER</a>
             
-            <h2>TITRE</h2>
-            </div>
+        </div>
+
+        
+
+        <div class="bloc__horizontal">
+           
+
+            <div class="item un"><h2>TITRE</h2></div>
             <div class="item deux"><h2>TITRE</h2></div>
             <div class="item trois"><h2>TITRE</h2></div>
             <div class="item quatre"><h2>TITRE</h2></div>
             <div class="item cinq"><h2>TITRE</h2></div>
         </div>
+        
        
         
     </div>
