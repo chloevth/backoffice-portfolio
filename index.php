@@ -11,9 +11,9 @@
 </head>
 <body>
     
-    
+<!-- conteneur -->
     <div class="container">
-        
+    <!-- header gauche -->
         <h1>PROJETS</h1>
 
         
@@ -25,24 +25,56 @@
             
         </div>
 
-        
+    <!-- fin header gauche -->
+
+    <!-- bloc de cartes -->
 
         <div class="bloc__horizontal">
            
+            <a href="#">
+                <div class="item un">
+                    <h2>TITRE</h2>
+                </div>
+            </a>
+                
+            <a href="#">
+                <div class="item deux">
+                    <h2>TITRE</h2>
+                </div>
+            </a> 
 
             <a href="#">
-            <div class="item un"><h2>TITRE</h2></div>
-            </a>
-            <div class="item deux"><h2>TITRE</h2></div>
-            <div class="item trois"><h2>TITRE</h2></div>
-            <div class="item quatre"><h2>TITRE</h2></div>
-            <div class="item cinq"><h2>TITRE</h2></div>
+                <div class="item trois">
+                    <h2>TITRE</h2>
+                </div>
+            </a> 
+
+            <a href="#">
+                <div class="item quatre">
+                    <h2>TITRE</h2>
+                </div>
+            </a> 
+
+            <a href="#">
+                <div class="item cinq">
+                    <h2>TITRE</h2>
+                </div>
+            </a> 
+
+        </div>
+
+    <!-- fin bloc de cartes -->
+        
+        <div class="container__filter">
+            <ul class='filter__list'>Filtres :
+                <li class="filter__list--item">Photo</li>
+                <li class="filter__list--item">Graphisme</li>
+                <li class="filter__list--item">Web design</li>
+            </ul>
         </div>
         
-       
-        
     </div>
-
+<!-- fin container -->
 
   
 
