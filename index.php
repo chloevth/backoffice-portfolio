@@ -30,7 +30,9 @@
         <div class="bloc__horizontal">
            
 
+            <a href="#">
             <div class="item un"><h2>TITRE</h2></div>
+            </a>
             <div class="item deux"><h2>TITRE</h2></div>
             <div class="item trois"><h2>TITRE</h2></div>
             <div class="item quatre"><h2>TITRE</h2></div>

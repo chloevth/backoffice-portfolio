@@ -7,10 +7,14 @@
     font-family: "Metropolis";
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 body{
-    background-color: lightgray;
+    background-image: url(/backoffice-portfolio/assets/images/bg-home.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
     height: 100vh;
 }
 /* cartes projets*/
@@ -20,14 +24,32 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image:url(/backoffice-portfolio/assets/images/test-600-450.jpg);
-    background-repeat: no-repeat;
-    background-position:center;
-    background-origin:content-box;
+    background:no-repeat center url(/backoffice-portfolio/assets/images/test-600-450.jpg);
     font-size: 32px;
     margin: 32px;
-    background-color: white;
+   
 }
+
+.bloc__horizontal a{
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+
+    
+ .item{
+    transition:  0.5s ease-in-out;
+}
+    
+ .item:hover{
+   background-color: violet;
+   z-index: 99999;
+   background-blend-mode: overlay;
+    transform:scale(1.1); 
+    
+}
+
 
 .bloc__horizontal{
     display: flex;
@@ -39,6 +61,8 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+
 
 .container{
     width: 100vh;
@@ -57,7 +81,6 @@ body{
     display: none;
 }
 
-
 /*titre page*/
 
 h1{
@@ -67,22 +90,17 @@ h1{
     margin-bottom: 64px;
 }
 
-
-
 .main__header{
-   
-  
     display: flex;
     justify-content: space-evenly;
     align-content: center;
-    color: black;
     font-size: 1rem;
     font-weight: bold;  
 }
 
 .main__header a {
     text-decoration: none;
-    color: black;
+    
     font-size: 1.5rem;
 }
 
