@@ -14,12 +14,9 @@
 <!-- conteneur -->
     <div class="container">
     <!-- header gauche -->
-        <h1>PROJETS</h1>
-
-        
         
         <div class="main__header">
-            <a href="#">A PROPOS</a>
+            <a href="#">BACK-OFFICE</a>
             <p class="scroll">Scroll</p>
             <a href="#">CHLOE VAUTHIER</a>
             
@@ -29,64 +26,37 @@
 
     <!-- bloc de cartes -->
 
-        <div class="bloc__horizontal">
+        <div class="bo__bloc--horizontal">
+                       
            
-            <a href="#">
+                <a href="register-form.php" class="btn__style">S'inscrire</a>
+         
+           
+                <a href="login-form.php" class="btn__style">Se connecter</a>
+          
+           
+            <!-- <a href="#">
                 <div class="item un">
                     <h2>TITRE</h2>
                 </div>
-            </a>
-                
-            <a href="#">
-                <div class="item deux">
-                    <h2>TITRE</h2>
-                </div>
-            </a> 
+            </a> -->
 
-            <a href="#">
-                <div class="item trois">
-                    <h2>TITRE</h2>
-                </div>
-            </a> 
-
-            <a href="#">
-                <div class="item quatre">
-                    <h2>TITRE</h2>
-                </div>
-            </a> 
-
-            <a href="#">
-                <div class="item cinq">
-                    <h2>TITRE</h2>
-                </div>
-            </a> 
+  
+         
 
         </div>
 
-    <!-- fin bloc de cartes -->
-        
-        <div class="container__filter">
-            <ul class='filter__list'>Filtres :
-                <li class="filter__list--item">Photo</li>
-                <li class="filter__list--item">Graphisme</li>
-                <li class="filter__list--item">Web design</li>
-            </ul>
-        </div>
+ 
+ 
         
     </div>
 <!-- fin container -->
 
   
 
-<!--
+
     
-     
-    <button>
-        <a href="register-form.php">S'inscrire</a>
-    </button>
-    <button>
-        <a href="login-form.php">Se connecter</a>
-    </button> -->
+    
  
 <script src="main.js"></script>
 </body>
