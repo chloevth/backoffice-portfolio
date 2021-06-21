@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Metropolis-Medium.otf";
+    src: url("fonts/Metropolis-Medium.otf") format("opentype"), url("fonts/Metropolis-Bold.otf") format("opentype"), url("fonts/Metropolis-ExtraBold.otf") format("opentype");
+}
+
+*, ::before, ::after{
+    font-family: "Metropolis";
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    background-image: url(/backoffice-portfolio/assets/images/bg-home.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container__bo{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+
+    /*pour ie et mozilla*/
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.main__header{
+    height: 30vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    font-weight: bold;  
+}
+
+.main__header a {
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.main__btn{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+.btn__style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    color: blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 3rem;
+    margin:0 2rem;
+    padding: 0 2rem;
+   
+}
+
+.btn__style:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:blue;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 3rem;
+    margin:0 2rem;
+    padding: 0 2rem;
+   
+}
+
+
+
