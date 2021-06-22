@@ -13,7 +13,6 @@
 
 .main__header{
     height: 30vh;
-
     display: flex;
     flex-wrap: wrap;
     align-items: center;

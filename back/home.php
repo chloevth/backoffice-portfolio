@@ -29,12 +29,11 @@ if ($_SESSION['username']) {
 <body>
 
     <?php
-
-    foreach ($result as $project) {
+        foreach ($result as $project) {
     ?>
         <a href="project-details.php?id=<?= $project['id'] ?>"><?= $project['project_title'] ?></a>
     <?php
-    }
+        }
     ?>
 
 

@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background:no-repeat center url('../images/test-600-450.jpg');
+    /* background:no-repeat center url('../images/test-600-450.jpg'); */
     font-size: 32px;
     margin: 32px;
    
@@ -20,14 +20,14 @@
 
     
  .item{
-    transition:  0.5s ease-in-out;
+    transition:  0.5s ease-in-out!important;
 }
     
  .item:hover{
-   background-color: violet;
-   z-index: 99999;
-   background-blend-mode: overlay;
-    transform:scale(1.1); 
+   background-color: violet!important;
+   z-index: 99999!important;
+   background-blend-mode: overlay!important;
+    transform:scale(1.1)!important; 
     
 }
 

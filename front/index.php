@@ -1,5 +1,10 @@
 <?php
     require_once('../db-connect.php');
+    $sql = 'SELECT * FROM `projects`';
+    $query = $db->prepare($sql);
+    $query->execute();
+    $result = $query->fetchAll(PDO::FETCH_ASSOC);
+
 ?>
 
 <!DOCTYPE html>
@@ -36,13 +41,19 @@
 
         <div class="bloc__horizontal">
            
-            <a href="#">
-                <div class="item un">
-                    <h2>TITRE</h2>
+        <?php
+            foreach ($result as $project) {
+        ?>
+
+            <a href="single.php?id=<?= $project['id'] ?>">
+                <div class="item" style="background:no-repeat center url('../assets/images/<?= $project['project_picture'] ?>');">
+                    <h2><?= $project['project_title'] ?></h2>
                 </div>
             </a>
-                
-            <a href="#">
+            <?php
+                }
+            ?>        
+            <!-- <a href="#">
                 <div class="item deux">
                     <h2>TITRE</h2>
                 </div>
@@ -64,7 +75,7 @@
                 <div class="item cinq">
                     <h2>TITRE</h2>
                 </div>
-            </a> 
+            </a>  -->
 
         </div>
 
