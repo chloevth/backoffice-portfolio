@@ -4,7 +4,7 @@ session_start();
 if ($_SESSION['username']) {
     echo $_SESSION['success'];
 
-    require_once('db-connect.php');
+    require_once('../db-connect.php');
     $sql = 'SELECT * FROM `projects`';
     $query = $db->prepare($sql);
     $query->execute();

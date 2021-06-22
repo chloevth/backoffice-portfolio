@@ -3,7 +3,7 @@ session_start();
 
 if ($_SESSION['username']) {
     if (isset($_GET['id']) && !empty($_GET['id'])) {
-        require_once('db-connect.php');
+        require_once('../db-connect.php');
         $id = strip_tags($_GET['id']);
         $sql = 'SELECT * FROM `projects` WHERE `id`=:id';
         $query = $db->prepare($sql);
@@ -30,7 +30,7 @@ if ($_SESSION['username']) {
 <body>
     <h1><?= $result['project_title'] ?></h1>*
     <figure>
-        <img src="assets/images/<?= $result['project_picture']; ?>">
+        <img src="../assets/images/<?= $result['project_picture']; ?>">
     </figure>
     <p><?= $result['project_context'] ?></p>
     <p> <?= $result['project_specs'] ?></p>

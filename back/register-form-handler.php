@@ -3,7 +3,7 @@
 if (isset($_POST['username']) && !empty($_POST['username']) && isset($_POST['email']) && !empty($_POST['email']) && isset($_POST['password']) && !empty($_POST['password']) && isset($_POST['confirmation']) && !empty($_POST['confirmation'])) {
 
 if ($_POST['password'] === $_POST['confirmation']) {
-      require_once('db-connect.php');
+      require_once('../db-connect.php');
       $username = strip_tags($_POST['username']);   // récupération des données form
       $email = strip_tags($_POST['email']);
       $password = strip_tags($_POST['password']);

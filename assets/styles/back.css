@@ -1,28 +1,7 @@
-@font-face {
-    font-family: "Metropolis-Medium.otf";
-    src: url("fonts/Metropolis-Medium.otf") format("opentype"), url("fonts/Metropolis-Bold.otf") format("opentype"), url("fonts/Metropolis-ExtraBold.otf") format("opentype");
-}
-
-*, ::before, ::after{
-    font-family: "Metropolis";
-    margin: 0;
-    padding: 0;
-    color: white;
-}
-
-body{
-    background-image: url(/backoffice-portfolio/assets/images/bg-home.jpg);
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size: cover;
-    height: 100vh;
-}
-
 .container__bo{
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
-
     /*pour ie et mozilla*/
     -ms-overflow-style: none;
     scrollbar-width: none;

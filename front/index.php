@@ -1,3 +1,7 @@
+<?php
+    require_once('../db-connect.php');
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -6,8 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio créé par Chloé Vauthier.">
     <title>Chloé VAUTHIER &#124 Graphiste &#38 Web designer</title>
-    <link rel="icon" href="#"/>
-    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="../assets/icones/favicon.ico"/>
+    <link rel="stylesheet" href="../assets/styles/main.css">
+    <link rel="stylesheet" href="../assets/styles/front.css">
 </head>
 <body>
     
@@ -77,6 +82,6 @@
 <!-- fin container -->
 
  
-<script src="main.js"></script>
+<script src="../assets/scripts/main.js"></script>
 </body>
 </html>

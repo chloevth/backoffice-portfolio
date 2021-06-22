@@ -17,7 +17,7 @@ if ($_SESSION['username']) {
             isset($_POST['project_link']) && !empty($_POST['project_link'])
         ) {
 
-            require_once("db-connect.php");
+            require_once("../db-connect.php");
             $id = strip_tags($_POST['id']);
             $title = strip_tags($_POST['project_title']);
             $begin = strip_tags($_POST['project_begin']);

@@ -3,7 +3,7 @@ session_start();
 
 if ($_SESSION['username']) {
     if (isset($_GET['id']) && !empty($_GET['id'])) {
-        require_once('db-connect.php');
+        require_once('../db-connect.php');
         $id = strip_tags($_GET['id']);
         $sql = 'SELECT * FROM `projects` WHERE `id`=:id';
         $query = $db->prepare($sql);

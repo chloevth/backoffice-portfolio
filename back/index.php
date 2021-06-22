@@ -7,8 +7,8 @@
     <meta name="description" content="Portfolio créé par Chloé Vauthier.">
     <title>Chloé VAUTHIER &#124 Graphiste &#38 Web designer</title>
     <link rel="icon" href="#"/>
-    <link rel="stylesheet" href="assets/styles/main.css">
-    <link rel="stylesheet" href="assets/styles/back.css">
+    <link rel="stylesheet" href="../assets/styles/main.css">
+    <link rel="stylesheet" href="../assets/styles/back.css">
 </head>
 <body>
     
@@ -24,12 +24,12 @@
 
        
             <div class="main__header">
-                <a href="#"><h1>PORTFOLIO</h1></a>
+                <a href="#"><h1>BACK-OFFICE</h1></a>
             </div>
                        
            <div class="main__btn">
-                <a href="front/index.php" class="btn__style">Visiteur</a>
-                <a href="back/index.php" class="btn__style">Admin</a>
+                <a href="register-form.php" class="btn__style">S'inscrire</a>
+                <a href="login-form.php" class="btn__style">Se connecter</a>
 
            </div>
         
