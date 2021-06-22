@@ -28,13 +28,18 @@ if ($_SESSION['username']) {
     <title>Document</title>
 </head>
 <body>
-    <?= $result['project_title'] ?>
-    <img src="C:\Users\acs\Documents\gwendoline_matos\modele-logo-sport-formes-abstraites_23-2148228932.jpg<?= $result['project_picture']; ?>">
-    <?= $result['project_context'] ?>
-    <?= $result['project_specs'] ?>
+    <h1><?= $result['project_title'] ?></h1>*
+    <figure>
+        <img src="assets/images/<?= $result['project_picture']; ?>">
+    </figure>
+    <p><?= $result['project_context'] ?></p>
+    <p> <?= $result['project_specs'] ?></p>
+   
+    <p>
+        <a href="project-edit.php?id=<?= $result['id'] ?>">Modifier <?= $result['project_title'] ?></a>
+        <a href="project-delete.php?id=<?= $result['id'] ?>">supprimer <?= $result['project_title'] ?></a>
+        <a href="home.php"><button>Retour</button></a>
+    </p>
 
-    <a href="project-edit.php?id=<?= $result['id'] ?>">Modifier <?= $result['project_title'] ?></a>
-    <a href="project-delete.php?id=<?= $result['id'] ?>">supprimer <?= $result['project_title'] ?></a>
-    <a href="home.php"><button>Retour</button></a>
 </body>
 </html>
