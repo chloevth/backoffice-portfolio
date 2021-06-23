@@ -18,6 +18,7 @@
     <link rel="icon" href="../assets/icones/favicon.ico"/>
     <link rel="stylesheet" href="../assets/styles/main.css">
     <link rel="stylesheet" href="../assets/styles/front.css">
+    <link rel="stylesheet" href="../assets/styles/about.css">
 </head>
 <body>
     
@@ -29,7 +30,14 @@
         
         
         <div class="main__header">
-            <a href="#">A PROPOS</a>
+            <a href="#modal_box" class="js_modal">A PROPOS</a>
+            <aside id="modal_box" class="modal" style="display:none;">
+                <div class="modal_wrapper">
+                    <button class="js_modal_close">Fermer la modale</button>
+                    <h1>A propos</h1>
+                </div>
+
+            </aside>
             <p class="scroll">Scroll</p>
             <a href="#">CHLOE VAUTHIER</a>
             
@@ -94,5 +102,7 @@
 
  
 <script src="../assets/scripts/main.js"></script>
+<script src="../assets/scripts/modal.js"></script>
+
 </body>
 </html>

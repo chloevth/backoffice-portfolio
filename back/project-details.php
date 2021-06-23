@@ -28,7 +28,7 @@ if ($_SESSION['username']) {
     <title>Document</title>
 </head>
 <body>
-    <h1><?= $result['project_title'] ?></h1>*
+    <h1><?= $result['project_title'] ?></h1>
     <figure>
         <img src="../assets/images/<?= $result['project_picture']; ?>">
     </figure>

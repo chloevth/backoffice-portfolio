@@ -14,18 +14,15 @@
 .bloc__horizontal a{
     cursor: pointer;
     text-decoration: none;
-    
 }
 
-
-    
  .item{
     transition:  0.5s ease-in-out!important;
 }
     
  .item:hover{
    background-color: violet!important;
-   z-index: 99999!important;
+  
    background-blend-mode: overlay!important;
     transform:scale(1.1)!important; 
     
@@ -86,10 +83,6 @@
    
 }
 
-
-
-
-
 /* .btn__style a{
     font-weight: bold;
     font-size: 1rem;
@@ -121,9 +114,6 @@
     
 
 } */
-
-
-
 
 .container{
     width: 100vh;
@@ -174,3 +164,6 @@ h1{
 
 
 } */
+
+
+/* page single */
