@@ -30,14 +30,22 @@
         
         
         <div class="main__header">
-            <a href="#modal_box" class="js_modal">A PROPOS</a>
-            <aside id="modal_box" class="modal" style="display:none;">
-                <div class="modal_wrapper">
-                    <button class="js_modal_close">Fermer la modale</button>
-                    <h1>A propos</h1>
-                </div>
+            <a href="#modal_box">A PROPOS</a>
+            <div id="modal_box" class="modal">
 
-            </aside>
+                <div class="modal_content">
+                    <a href="#" class="modal_close">&times; Fermer la fenêtre &times; </a>
+                    <h1 class="modal_title">A PROPOS</h1>
+                    <P>Graphiste et photographe, j'ai souhaité me former au web design pour acquérir une polyvalence à destination de mes futurs employeurs et clients.  </P>
+                    <ul>
+                        <li><a href="#" target="_blank">Télécharger mon CV</a></li>
+                        <li><a href="https://github.com/chloevth" target="_blank">Github</a></li>
+                        <li><a href="#" target="_blank">LinkedIn</a></li>
+                        <li><a href="#" target="_blank">Email</a></li>
+                    </ul>
+                    
+                </div>
+            </div>
             <p class="scroll">Scroll</p>
             <a href="#">CHLOE VAUTHIER</a>
             
