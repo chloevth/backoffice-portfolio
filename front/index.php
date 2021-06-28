@@ -36,13 +36,13 @@
                 <div class="modal_content">
                     <a href="#" class="modal_close">&times; Fermer la fenêtre &times; </a>
                     <h1 class="modal_title">A PROPOS</h1>
-                    <P>Graphiste et photographe, j'ai souhaité me former au web design pour acquérir une polyvalence à destination de mes futurs employeurs et clients.  </P>
-                    <ul>
-                        <li><a href="#" target="_blank">Télécharger mon CV</a></li>
-                        <li><a href="https://github.com/chloevth" target="_blank">Github</a></li>
-                        <li><a href="#" target="_blank">LinkedIn</a></li>
-                        <li><a href="#" target="_blank">Email</a></li>
-                    </ul>
+                    <P class="modal_text">Graphiste et photographe, j'ai souhaité me former au web design pour acquérir une polyvalence à destination de mes futurs employeurs et clients.  </P>
+                    
+                    <a href="#" target="_blank" class="modal_btn">CV</a>
+                    <a href="https://github.com/chloevth" target="_blank" class="modal_btn">Github</a>
+                    <a href="#" target="_blank" class="modal_btn">LinkedIn</a>
+                    <a href="#" target="_blank" class="modal_btn">Email</a>
+                    
                     
                 </div>
             </div>
@@ -69,41 +69,11 @@
             <?php
                 }
             ?>        
-            <!-- <a href="#">
-                <div class="item deux">
-                    <h2>TITRE</h2>
-                </div>
-            </a> 
-
-            <a href="#">
-                <div class="item trois">
-                    <h2>TITRE</h2>
-                </div>
-            </a> 
-
-            <a href="#">
-                <div class="item quatre">
-                    <h2>TITRE</h2>
-                </div>
-            </a> 
-
-            <a href="#">
-                <div class="item cinq">
-                    <h2>TITRE</h2>
-                </div>
-            </a>  -->
 
         </div>
 
     <!-- fin bloc de cartes -->
         
-        <div class="container__filter">
-            <ul class='filter__list'>Filtres :
-                <li class="filter__list--item">Photo</li>
-                <li class="filter__list--item">Graphisme</li>
-                <li class="filter__list--item">Web design</li>
-            </ul>
-        </div>
         
     </div>
 <!-- fin container -->

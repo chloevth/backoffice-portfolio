@@ -1,127 +1,10 @@
-/* cartes projets*/
-.item{
-    width: 450px;
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background:no-repeat center url('../images/test-600-450.jpg'); */
-    font-size: 32px;
-    margin: 32px;
-   
-}
-
-.bloc__horizontal a{
-    cursor: pointer;
-    text-decoration: none;
-}
-
- .item{
-    transition:  0.5s ease-in-out!important;
-}
-    
- .item:hover{
-   background-color: violet!important;
-  
-   background-blend-mode: overlay!important;
-    transform:scale(1.1)!important; 
-    
-}
-
-
-.bloc__horizontal{
-    display: flex;
-    flex-direction: row;
-    width: 2634px;
-    transform: rotate(90deg) translateY(-100vh);
-    transform-origin: top left;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-}
-
-.bo__bloc--horizontal{
-    display: flex;
-    flex-direction: row;
-    width: 95vw;
-    transform: rotate(90deg) translateY(-100vh);
-    transform-origin: top left;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-}
-
-.btn__style{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    font-weight: bold;
-    font-size: 1rem;
-    color: blue;
-    text-decoration: none;
-    text-transform: uppercase;
-    height: 3rem;
-    margin:0 2rem;
-    padding: 0 2rem;
-   
-}
-
-.btn__style:hover{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:blue;
-    font-weight: bold;
-    font-size: 1rem;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    height: 3rem;
-    margin:0 2rem;
-    padding: 0 2rem;
-   
-}
-
-/* .btn__style a{
-    font-weight: bold;
-    font-size: 1rem;
-    color: blue;
-    text-decoration: none;
-    text-transform: uppercase;
-    
-
-}
-
-.btn__style:hover{
-    background-color: blue;
-    color: white;
-     height: 70px;
-   margin:0 2rem;
-   padding: 0 2rem;
-    border:0px;
-    line-height: 35px;
-}
-
-
-.btn__style a:hover{
-    font-weight: bold;
-    font-size: 1rem;
-    color:white;
-    text-decoration: none;
-    text-transform: uppercase;
-    background-color: blue;
-    
-
-} */
-
+/* Conteneur */
 .container{
     width: 100vh;
     height: 100vw;
     transform: rotate(-90deg) translateX(-100vh);
     transform-origin: top left;
     overflow-x: hidden;
-
    
     /*pour ie et mozilla*/
     -ms-overflow-style: none;
@@ -132,7 +15,7 @@
     display: none;
 }
 
-/*titre page*/
+/* Titre page*/
 
 h1{
     display: flex;
@@ -140,6 +23,8 @@ h1{
     font-size: 5rem;
     margin-bottom: 64px;
 }
+
+/* En-tête */
 
 .main__header{
     display: flex;
@@ -151,19 +36,73 @@ h1{
 
 .main__header a {
     text-decoration: none;
-    
     font-size: 1.5rem;
 }
 
+/* Bloc horizontal */
 
-/* filtres */
-/* .container__filter{
-    background-color: yellowgreen;
-    
-    transform: rotate(90deg);
+.bloc__horizontal{
+    display: flex;
+    flex-direction: row;
+    width: 2088px;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloc__horizontal a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Cartes projets*/
+
+.item{
+    width: 450px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background:no-repeat center url('../images/test-600-450.jpg'); */
+    font-size: 32px;
+    margin: 32px; 
+    transition:  0.5s ease-in-out!important;
+}
+
+.item:hover{
+   background-color: violet!important;
+  
+   background-blend-mode: overlay!important;
+    transform:scale(1.1)!important; 
+}
+
+/* Responsive */
+
+@media screen and (max-width: 576px) {
+    h1{
+        font-size: 3rem;
+        margin-bottom: 16px;
+    }
+
+    .bloc__horizontal{
+      
+        width: 1044px;
+    }
+
+    .item{
+        width: 225px;
+        height: 300px;
+   
+        font-size: 1rem;
+        margin: 0 32px 0 0;
+    }
+}
 
 
-} */
 
 
-/* page single */
+
+
+
