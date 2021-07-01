@@ -40,8 +40,8 @@
                     
                     <a href="#" target="_blank" class="modal_btn">CV</a>
                     <a href="https://github.com/chloevth" target="_blank" class="modal_btn">Github</a>
-                    <a href="#" target="_blank" class="modal_btn">LinkedIn</a>
-                    <a href="#" target="_blank" class="modal_btn">Email</a>
+                    <a href="https://www.linkedin.com/in/chlo%C3%A9-vauthier-0a4077146/" target="_blank" class="modal_btn">LinkedIn</a>
+                    <a href="mailto:c.vauthier@codeur.online" target="_blank" class="modal_btn">Email</a>
                     
                     
                 </div>

@@ -49,6 +49,7 @@
     height: 3rem;
     margin:0 2rem;
     padding: 0 2rem;
+    border: 0;
    
 }
 
@@ -122,6 +123,6 @@
    
 }
 
-label{
+/* label{
   display: flex;
-}
+} */
