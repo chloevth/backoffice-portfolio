@@ -95,4 +95,26 @@ position: absolute;
 }
 
 
+/* Responsive */
 
+@media screen and (max-width: 576px) {
+    .modal{
+        height: 100vh;
+        width: 100vw;
+     
+    }
+    .modal_content{
+ 
+        transform: rotate(0deg);
+       
+      
+      
+    }
+
+    .main__header .modal_content p{
+        margin: 0 3rem;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        text-align: left;
+    }
+}

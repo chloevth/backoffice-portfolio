@@ -81,22 +81,84 @@ h1{
 /* Responsive */
 
 @media screen and (max-width: 576px) {
-    h1{
-        font-size: 3rem;
-        margin-bottom: 16px;
-    }
+    
+    .container{
+        height: 100vh;
+        width: 100vw;
+     
+        transform: rotate(0) translateX(0);
 
-    .bloc__horizontal{
-      
-        width: 1044px;
     }
+    
+    
+
+    h1{
+        
+        height: 5vh;
+        font-size: 3rem;
+        margin: 5vh 0;
+    }
+ 
+/* En-tête */
+
+.main__header{
+    height: 15vh;
+    display: flex;
+ 
+  flex-direction: column-reverse;
+ 
+   
+    font-size: 1rem;
+    font-weight: bold;  
+}
+
+.main__header a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main__header p {
+    text-align: center;
+}
+
+/* Bloc horizontal */
+
+.bloc__horizontal{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100vw;
+    transform: rotate(0) translateY(0);
+   
+    height: 150vh;
+    margin: 0 !important;
+   
+}
+
+.bloc__horizontal a{
+    cursor: pointer;
+    text-decoration: none;
+}
 
     .item{
-        width: 225px;
-        height: 300px;
+        width: 100vw;
+    height: 30vh;
+   justify-content: center;
+ 
+   margin: 0;
+   margin-bottom: 5vh;
+    
+    /* background:no-repeat center url('../images/test-600-450.jpg'); */
+  
+    transition:  0.5s ease-in-out!important;
+
+
    
         font-size: 1rem;
-        margin: 0 32px 0 0;
+       
     }
 }
 

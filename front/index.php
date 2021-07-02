@@ -26,16 +26,14 @@
     <div class="container">
     <!-- header gauche -->
         <h1>PROJETS</h1>
-
-        
         
         <div class="main__header">
-            <a href="#modal_box">A PROPOS</a>
+            <a href="#modal_box">À PROPOS</a>
             <div id="modal_box" class="modal">
 
                 <div class="modal_content">
                     <a href="#" class="modal_close">&times; Fermer la fenêtre &times; </a>
-                    <h1 class="modal_title">A PROPOS</h1>
+                    <h1 class="modal_title">À PROPOS</h1>
                     <P class="modal_text">Graphiste et photographe, j'ai souhaité me former au web design pour acquérir une polyvalence à destination de mes futurs employeurs et clients.  </P>
                     
                     <a href="#" target="_blank" class="modal_btn">CV</a>
