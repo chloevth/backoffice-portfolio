@@ -6,4 +6,4 @@
   - Altéo https://www.alteo.fr/
 
 - 13 / 07 / 21 :
-  - https://www.whodunit.fr/
+  - Whodunit https://www.whodunit.fr/
