@@ -8,3 +8,7 @@
 - 13 / 07 / 21 :
   - Whodunit https://www.whodunit.fr/
   - Ouidou https://ouidou.fr/
+
+- 15 / 07 / 21 :
+  - Ecom Studio : https://ecomstudio.fr/
+  - Agence LunaWeb : https://www.lunaweb.fr/
