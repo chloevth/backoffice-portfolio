@@ -13,3 +13,4 @@
   - Ecom Studio : https://ecomstudio.fr/
   - Agence LunaWeb : https://www.lunaweb.fr/
   - Zoo de Beauval : https://www.zoobeauval.com/
+  - Artlex : formulaire https://www.leblogdartlex.com/
