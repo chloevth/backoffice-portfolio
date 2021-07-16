@@ -14,3 +14,7 @@
   - Agence LunaWeb : https://www.lunaweb.fr/
   - Zoo de Beauval : https://www.zoobeauval.com/
   - Artlex : formulaire https://www.leblogdartlex.com/
+
+- 16 / 07 / 21 :
+   - LifeAz https://home.lifeaz.co/
+   - 
