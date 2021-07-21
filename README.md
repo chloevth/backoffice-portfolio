@@ -23,3 +23,6 @@
  
 - 20 / 07 / 21 :
    - La Poste : https://www.laposterecrute.fr/mon-espace-emploi#mon-espace-emploi-id
+
+- 21 / 07 / 21 :
+   - Koji : https://www.koji.fr/ (M. Faudemer)
