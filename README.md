@@ -26,3 +26,7 @@
 
 - 21 / 07 / 21 :
    - Koji : https://www.koji.fr/ (M. Faudemer)
+
+- 22 / 07 / 21 :
+   - Andjaro : https://www.andjaro.com/ (M. Facchin)
+
