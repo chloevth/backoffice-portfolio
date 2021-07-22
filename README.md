@@ -1,7 +1,7 @@
 # Candidatures stage :
 - 12 / 07 / 21 :
 
-  - Be API https://beapi.fr/
+  - Be API https://beapi.fr/ REFUS
   - Sisméo https://www.sismeo.com/
   - Altéo https://www.alteo.fr/
 
@@ -16,7 +16,7 @@
   - Artlex : formulaire https://www.leblogdartlex.com/
 
 - 16 / 07 / 21 :
-   - LifeAz https://home.lifeaz.co/
+   - LifeAz https://home.lifeaz.co/ refus car pas en dessous de 4 mois
    
 - 19 / 07 / 21 :
    - My Smart Digital : https://mysmartdigital.fr/
