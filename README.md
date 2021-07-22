@@ -16,7 +16,7 @@
   - Artlex : formulaire https://www.leblogdartlex.com/
 
 - 16 / 07 / 21 :
-   - LifeAz https://home.lifeaz.co/ refus car pas en dessous de 4 mois
+   - LifeAz https://home.lifeaz.co/ refus car pas en dessous de 4 mois (relance car possibilité de rallonger le stage)
    
 - 19 / 07 / 21 :
    - My Smart Digital : https://mysmartdigital.fr/
