@@ -33,3 +33,6 @@
    - Anana Studio Linked In
    - Cartelis - La fabrique du net https://docs.google.com/forms/u/0/d/e/1FAIpQLSf3VG2f8WmlFdhLCsm_0LgUHeM6LyeVLeRfx2t5s-IbrbzDVQ/formResponse
 
+- 23 / 07 / 21 :
+   - WeLoveWords : https://www.welcometothejungle.com/fr/companies/youlovewords/jobs/graphiste-assistant-da_paris (stage graphiste assistant DA - Directeur : M. Nicolaidis) 
+
