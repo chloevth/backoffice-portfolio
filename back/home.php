@@ -48,7 +48,7 @@ if ($_SESSION['username']) {
             foreach ($result as $project) {
         ?>
 
-            <a href="single.php?id=<?= $project['id'] ?>">
+            <a href="project-details.php?id=<?= $project['id'] ?>">
                 <div class="item" style="background:no-repeat center url('../assets/images/<?= $project['project_picture'] ?>');">
                     <h2><?= $project['project_title'] ?></h2>
                 </div>
