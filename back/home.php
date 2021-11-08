@@ -11,8 +11,6 @@ if ($_SESSION['username']) {
     $result = $query->fetchAll(PDO::FETCH_ASSOC);
     /*  var_dump($result); */
 }
-
-
 ?>
 
 
@@ -27,7 +25,8 @@ if ($_SESSION['username']) {
     <link rel="icon" href="../assets/icones/favicon.ico"/>
     <link rel="stylesheet" href="../assets/styles/main.css">
     <link rel="stylesheet" href="../assets/styles/front.css">
-    <link rel="stylesheet" href="../assets/styles/back.css">
+    <link rel="stylesheet" href="../assets/styles/home.css">
+   
 </head>
 <body>
     
@@ -35,8 +34,9 @@ if ($_SESSION['username']) {
     <div class="container">
     <!-- header gauche -->
         <h1>PROJETS</h1>
-        <a href="add-form.php"><button class="btn__add">ajouter un projet</button></a>
-     
+        <div class="main__header">
+            <a href="add-form.php">Ajouter un projet</a>
+        </div>
 
     <!-- fin header gauche -->
 
@@ -65,40 +65,10 @@ if ($_SESSION['username']) {
     </div>
 <!-- fin container -->
 
-<?php
-        foreach ($result as $project) {
-?>
-        <a href="project-details.php?id=<?= $project['id'] ?>"><?= $project['project_title'] ?></a>
-<?php
-        }
-?>
-
-
-
   
  
 <script src="../assets/scripts/main.js"></script>
-<script src="../assets/scripts/modal.js"></script>
 
 </body>
 </html>
 
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-
-<body>
-
-   
-
-</body>
-
-</html> -->

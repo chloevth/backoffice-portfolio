@@ -15,7 +15,7 @@ if ($_SESSION['username']) {
         $query->bindValue(':id', $id, PDO::PARAM_INT);
         $query->execute();
         /*header('Location:home.php');*/
-        echo 'projet supprimé <br><a href="home.php"><button>Retour</button></a>';
+        echo '<h1>Projet supprimé</h1> <br> <a href="home.php" class="btn__style">Retour</a>';
 
     } else {
             echo 'id manquant'; 
@@ -23,3 +23,21 @@ if ($_SESSION['username']) {
     } else {
     echo 'identifiez-vous';
 }
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet supprimé</title>
+    <link rel="stylesheet" href="../assets/styles/main.css">
+    <link rel="stylesheet" href="../assets/styles/back.css">
+    <link rel="stylesheet" href="../assets/styles/center.css">
+   
+</head>
+<body>
+    
+</body>
+</html>

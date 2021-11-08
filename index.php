@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio créé par Chloé Vauthier.">
+    <meta name="description" content="Portfolio créé par Chloé Vauthier - Graphiste web designer.">
     <title>Chloé VAUTHIER &#124 Graphiste &#38 Web designer</title>
     <link rel="icon" href="#"/>
     <link rel="stylesheet" href="assets/styles/main.css">
@@ -16,8 +16,6 @@
     <div class="container__bo">
     <!-- header gauche -->
         
-      
-
     <!-- fin header gauche -->
 
     <!-- bloc de cartes -->

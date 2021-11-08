@@ -104,10 +104,7 @@ h1{
 .main__header{
     height: 15vh;
     display: flex;
- 
   flex-direction: column-reverse;
- 
-   
     font-size: 1rem;
     font-weight: bold;  
 }

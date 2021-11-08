@@ -34,9 +34,9 @@
                 <div class="modal_content">
                     <a href="#" class="modal_close">&times; Fermer la fenêtre &times; </a>
                     <h1 class="modal_title">À PROPOS</h1>
-                    <P class="modal_text">Graphiste et photographe, j'ai souhaité me former au web design pour acquérir une polyvalence à destination de mes futurs employeurs et clients.  </P>
+                    <P class="modal_text">Graphiste et photographe, j'ai souhaité me former au web design pour acquérir une polyvalence à destination de mes futurs employeurs et clients.</P>
                     
-                    <a href="#" target="_blank" class="modal_btn">CV</a>
+                    <a href="../assets/images/cv.pdf" target="_blank" class="modal_btn">CV</a>
                     <a href="https://github.com/chloevth" target="_blank" class="modal_btn">Github</a>
                     <a href="https://www.linkedin.com/in/chlo%C3%A9-vauthier-0a4077146/" target="_blank" class="modal_btn">LinkedIn</a>
                     <a href="mailto:c.vauthier@codeur.online" target="_blank" class="modal_btn">Email</a>

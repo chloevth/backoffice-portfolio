@@ -17,8 +17,8 @@ if ($_POST['password'] === $_POST['confirmation']) {
       $query->bindValue(':email', $email, PDO::PARAM_STR);
       $query->bindValue(':password', $passwordhash, PDO::PARAM_STR);
       $query->execute();
-      echo 'succes';
-      echo '<br><a href="index.php">Retour</a>';
+      echo '<h1 class="main__form">Success</h1>';
+      echo '<br><a href="index.php" class="btn__style" >Retour</a>';
 }else{
       echo 'les mots de passe ne correspondent pas';
 }
@@ -33,3 +33,23 @@ strip_tags() c'est pour sécuriser et empecher les injections et notament si on 
 tout ce qui est en jaune : fonctions php à aller voir
 
 */
+?> 
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Register Form Handler</title>
+      <link rel="stylesheet" href="../assets/styles/main.css">
+      <link rel="stylesheet" href="../assets/styles/back.css"> 
+      <link rel="stylesheet" href="../assets/styles/center.css"> 
+      li     
+</head>
+<body>
+      
+</body>
+</html>
