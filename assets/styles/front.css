@@ -72,9 +72,10 @@ h1{
 }
 
 .item:hover{
-   background-color: violet!important;
+   background-color: rgba(238, 130, 238, 0.85)!important;
   
-   background-blend-mode: overlay!important;
+   background-blend-mode: saturation!important;
+   
     transform:scale(1.1)!important; 
 }
 

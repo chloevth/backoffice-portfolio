@@ -162,3 +162,20 @@ figure{
     margin-bottom: 2vh;
 }
 
+@media screen and (max-width: 992px) {
+  
+    
+    
+    figure{
+      
+        height: 45%;
+    }
+    
+    .edit__specs{
+       
+        width: fit-content;
+        
+      }
+    
+ 
+} 
